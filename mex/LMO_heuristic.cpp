@@ -1,7 +1,17 @@
-//
-// Created by joe on 2/3/17.
-//
+//   Copyright (C) 2017  Joseph St.Amand
 
+//   This program is free software: you can redistribute it and/or modify
+//   it under the terms of the GNU General Public License as published by
+//   the Free Software Foundation, either version 3 of the License, or
+//   (at your option) any later version.
+
+//   This program is distributed in the hope that it will be useful,
+//   but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "matrix.h"
 #include "mex.h"
@@ -12,7 +22,7 @@
 #include <stdint.h>
 #include <limits>
 
-/* Taken from: "Similarity Learning for High-Dimensional Sparse Data" AAAI '15
+/* getValue frunction provided by "Similarity Learning for High-Dimensional Sparse Data" AAAI '15
  * get value corresponding to element (i,j) in sparse matrix
  * i,j start at 1
  * based on binary search
