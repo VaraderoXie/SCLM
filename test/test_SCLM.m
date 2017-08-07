@@ -17,7 +17,7 @@ function [] = test_SCLM()
 % TEST_SCLM Summary of this function goes here
 
     %% Load CNAE-9 dataset
-    dataset = load('/freenas/research/datasets/CNAE9/data.mat');
+    dataset = load('./data/cnae9.mat');
     
     A = sparse(dataset.X);
     Y = dataset.Y;
